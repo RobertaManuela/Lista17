@@ -11,6 +11,13 @@ namespace Ex02
         private int PrimeiroElemento;
         private int razao;
 
+        public void SetPrimeiroElemento(int p) {PrimeiroElemento = p; }
+        public int GetPrimeiroElemento() { return PrimeiroElemento; }
+
+        public void Setrazao(int d) { razao = d; }
+        public int Getrazao() { return razao; }
+
+
         public void Iniciar()
         {
 

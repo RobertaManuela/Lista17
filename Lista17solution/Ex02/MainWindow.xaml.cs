@@ -25,6 +25,16 @@ namespace Ex02
             InitializeComponent();
         }
 
-       
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PA x = new PA();
+            x.SetPrimeiroElemento(int.Parse(PrimeiroElemento.Text));
+            x.Setrazao(int.Parse(razao.Text));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

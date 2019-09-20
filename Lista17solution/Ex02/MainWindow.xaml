@@ -10,12 +10,12 @@
         <GroupBox Header="P.A" Margin="10,10,10,164">
             <Grid Margin="0,0,0,21">
                 <TextBlock Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Primeiro Elemento:" Margin="10,10,0,0"/>
-                <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,10,0,0"/>
+                <TextBox Width="100" Name="PrimeiroElemento" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,10,0,0"/>
                 <TextBlock Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Razão:" Margin="10,50,0,0"/>
-                <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,50,0,0"/>
-                <Button Width="340" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Calcular" Margin="10,97,0,0"/>
-                <TextBlock Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="PA:" Margin="10,130,0,0"/>
-                <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,130,0,0" TextChanged="TextBox_TextChanged"/>
+                <TextBox Width="100" Name="razao" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,50,0,0"/>
+                <Button Width="210" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Próximo" Margin="10,97,0,0" Click="Button_Click"/>
+                <TextBlock Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="PA:" Margin="10,130,0,0" RenderTransformOrigin="2.826,-5.172"/>
+                <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="120,130,0,0" Name="resultadoPA"/>
             </Grid>
         </GroupBox>
 
@@ -23,7 +23,7 @@
             <Grid Margin="0,-18,0,0">
                 <TextBlock Width="150" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Quantidade de elementos:" Margin="10,30,0,0"/>
                 <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Name="qtd" Margin="170,30,0,0"/>
-                <Button Width="340" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Calcular" Margin="10,70,0,0"/>
+                <Button Width="340" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Content="Calcular" Margin="10,70,0,0" Click="Button_Click_1"/>
                 <TextBlock Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Sequência:" Margin="10,100,0,0"/>
                 <TextBox Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" Name="seq" Margin="170,100,0,0"/>
 
